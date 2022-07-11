@@ -107,13 +107,19 @@ body {
 }
 
 @media (max-width:450px) {
+
+    body {
+        background-image: none;
+    }
+
     .captura {
         margin-top: 0px;
         max-width: 350px;
         box-shadow: none;
     }
-    
-    body {
-        background-image: none;
+
+    .captura img {
+        padding-top: 20px;
     }
+
 }
